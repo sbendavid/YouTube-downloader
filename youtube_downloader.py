@@ -3,7 +3,7 @@ from pytube.exceptions import PytubeError
 from http.client import IncompleteRead
 
 # Set the output path for the downloaded file
-DOWNLOAD_DIR = 'c:\\Users\\Chudi\\Downloads'
+DOWNLOAD_DIR = 'c:\\Users\\samue\\OneDrive\\Downloads'
 
 print("YouTube Downloader")
 

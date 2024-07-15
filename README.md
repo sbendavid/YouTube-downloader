@@ -15,14 +15,14 @@ pip install pytube
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/youtube-downloader.git
+git clone https://github.com/sbendavid/YouTube-downloader.git
 cd youtube-downloader
 ```
 
 2. Run the script with the desired YouTube video URL or playlist URL:
 
 ```bash
-python download_youtube.py
+python youtube_downloader.py
 ```
 
 ## Features
