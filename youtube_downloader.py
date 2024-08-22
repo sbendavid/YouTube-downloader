@@ -6,7 +6,14 @@ from http.client import IncompleteRead
 # Set the part to the download dir or any part
 DOWNLOAD_DIR = 'c:\\Users\\samue\\OneDrive\\Downloads'
 
-print("YouTube Downloader")
+print("YouTube Downloader!")
+print("Welcome to my youtube downloader!")
+print(
+    "This script allows you to download YouTube videos in a specified resolution range.\n"
+    "Make sure you have the pytube library installed by running 'pip install pytube'.\n"
+    "Make sure to replace the example links with your own YouTube links.\n"
+    "Note: Make sure the download directory is accessible."
+)
 
 def single_video(link):
     try:
@@ -79,12 +86,12 @@ def playlist(link):
 
 
 def main():
-    video_type = input("Is it a single video or a playlist \nType single for a single video and playlist: ")
+    video_type = input("Type s for a single video and p for playlist: ")
 
-    if video_type == "single":
+    if video_type == "s":
         link = input("Enter the URL of the video to download: ")
         single_video(link)
-    elif video_type == "playlist":
+    elif video_type == "p":
         link = input("Enter the URL of the playlist to download: ")
         playlist(link)
     else:
