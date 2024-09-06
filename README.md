@@ -1,13 +1,13 @@
-# YouTube Video Downloader using Pytube
+# YouTube Video Downloader using yt-dlp
 
-This Python script allows you to download individual YouTube videos or entire playlists using the Pytube library.
+This Python script allows you to download individual YouTube videos or entire playlists using the yt-dlp library.
 
 ## Prerequisites
 
-Make sure you have Python installed on your machine. You can install Pytube by running the following command:
+Make sure you have Python installed on your machine. You can install yt-dlp by running the following command:
 
 ```bash
-pip install pytube
+pip install yt-dlp
 ```
 
 ## Usage
