@@ -41,7 +41,7 @@ def download_video(url, save_path="."):
 if __name__ == "__main__":
     # https://www.youtube.com/watch?v=3FNYvj2U0HM&list=PLLKT__MCUeixqHJ1TRqrHsEd6_EdEvo47&index=3&t=107s
     # https://www.youtube.com/watch?v=sH4JCwjybGs&list=PLLKT__MCUeixqHJ1TRqrHsEd6_EdEvo47&index=2
-    video_url = "https://www.youtube.com/watch?v=3FNYvj2U0HM&list=PLLKT__MCUeixqHJ1TRqrHsEd6_EdEvo47&index=4&t=107s"
+    video_url = "https://www.youtube.com/watch?v=sH4JCwjybGs&list=PLLKT__MCUeixqHJ1TRqrHsEd6_EdEvo47&index=2"
     download_path = "c:\\Users\\samue\\OneDrive\\Downloads"
     
     download_video(video_url, download_path)
